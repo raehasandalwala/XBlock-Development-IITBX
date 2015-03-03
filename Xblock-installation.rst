@@ -3,11 +3,9 @@ Installing XBlock SDK
 
 XBlock SDK runs on Python 2.7.
 
-1. Grab the source code for XBlock SDK at https://github.com/edx/xblock-sdk:
-
-  ```
-  a. $ git clone https://github.com/edx/xblock-sdk.git
-  ```
+1. Grab the source code for XBlock SDK at https://github.com/edx/xblock-sdk ::
+      a. $ git clone https://github.com/edx/xblock-sdk.git
+ 
   
   ```
   b. $ cd xblock-sdk
@@ -61,3 +59,15 @@ c. $ sudo apt-get install build-essential autoconf libtool pkg-config python-ope
 ```
 d. $ sudo apt-get install libxml2-dev libxslt1-dev python-dev lib32z1-de
 ```
+
+4. Create and sync the sqllite DB:
+
+  ```
+  $ python manage.py syncdb
+  ```
+
+5. Run the django development server:
+
+  ```
+  $ python manage.py runserver
+  ```
