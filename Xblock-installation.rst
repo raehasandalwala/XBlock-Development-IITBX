@@ -3,13 +3,11 @@ Installing XBlock SDK
 
 XBlock SDK runs on Python 2.7.
 
-1. Grab the source code for XBlock SDK at https://github.com/edx/xblock-sdk ::
+1. Grab the source code for XBlock SDK at https://github.com/edx/xblock-sdk::
+
       a. $ git clone https://github.com/edx/xblock-sdk.git
- 
-  
-  ```
-  b. $ cd xblock-sdk
-  ```
+      b. $ cd xblock-sdk
+
   
   Note : Remove proxy from browser. Set proxy in terminal.
   
