@@ -15,17 +15,28 @@ XBlock SDK runs on Python 2.7.
 
    $ mkvirtualenv xblock-sdk
  
+3. Install the requirements and register the XBlock (you may need to sudo this if you don’t use virtualenv)::
+	
+   $ make install
+	
+      **Possible error(s)**:: 
   
-  **Possible error(s)**:: 
-  
-      a. error: could not create '/usr/local/lib/python2.7/dist-	packages/cookiecutter': Permission denied
-      Command /usr/bin/python -c "import setuptools;__file__='/home/raeha/xblock- sdk/build/cookiecutter/setup.py';exec      compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally           -managed   --record /tmp/pip-3Drsbd-record/install-record.txt failed with error code 1
+      a. error: could not create '/usr/local/lib/python2.7/dist-packages/cookiecutter': Permission denied
+      Command /usr/bin/python -c "import setuptools;__file__='/home/raeha/xblock- sdk/build/cookiecutter/setup.py';
+      exec compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed 
+      --record /tmp/pip-3Drsbd-record/install-record.txt failed with error code 1
       Storing complete log in /home/raeha/.pip/pip.log
       make: *** [pip] Error 1
+      
       b. error: Setup script exited with error: command 'gcc' failed with exit status 1
+      
       c. error: command 'gcc' failed with exit status 1
       Cleaning up...
-      Command /home/raeha/xblock-sdk/xblock-env/bin/python -c "import setuptools;__file__='/home/raeha/xblock-sdk/xblock-env/build/lxml/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-e4mzdc-record/install-record.txt --single-version-externally-managed --install-headers /home/raeha/xblock-sdk/xblock-env/include/site/python2.7 failed with error code 1 in /home/raeha/xblock-sdk/xblock-env/build/lxml
+      Command /home/raeha/xblock-sdk/xblock-env/bin/python -c "import setuptools;__file__=
+      '/home/raeha/xblock-sdk/xblock-env/build/lxml/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'),
+      __file__, 'exec'))" install --record /tmp/pip-e4mzdc-record/install-record.txt --single-version-externally-managed 
+      --install-headers /home/raeha/xblock-sdk/xblock-env/include/site/python2.7 failed with error code 1 in 
+      /home/raeha/xblock-sdk/xblock-env/build/lxml
       Storing complete log in /home/raeha/.pip/pip.log
       make: *** [pip] Error 1
 
