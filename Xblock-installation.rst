@@ -28,7 +28,7 @@ XBlock SDK runs on Python 2.7.
       Storing complete log in /home/raeha/.pip/pip.log
       make: *** [pip] Error 1
       
-      b. error: Setup script exited with error: command 'gcc' failed with exit status 1
+    b. error: Setup script exited with error: command 'gcc' failed with exit status 1
       
       c. error: command 'gcc' failed with exit status 1
       Cleaning up...
@@ -43,31 +43,27 @@ XBlock SDK runs on Python 2.7.
 
   **Possible solutions** :
 
-```
-a. $ pip install -r requirements.txt
-```
+	a. $ pip install -r requirements.txt::
+	
+	b. $ sudo apt-get install gcc
+   	$ sudo apt-get install python-dateutil python-docutils python-feedparser python-gdata python-jinja2 
+   	python-ldap python-libxslt1 python-lxml python-mako python-mock python-openid python-psycopg2 python-psutil 
+   	python-pybabel python-pychart python-pydot python-pyparsing python-reportlab python-simplejson python-tz 
+   	python-unittest2 python-vatnumber python-vobject python-webdav python-werkzeug python-xlwt python-yaml python-zsi
 
-```
-b. $ sudo apt-get install gcc
-$ sudo apt-get install python-dateutil python-docutils python-feedparser python-gdata python-jinja2 python-ldap python-libxslt1 python-lxml python-mako python-mock python-openid python-psycopg2 python-psutil python-pybabel python-pychart python-pydot python-pyparsing python-reportlab python-simplejson python-tz python-unittest2 python-vatnumber python-vobject python-webdav python-werkzeug python-xlwt python-yaml python-zsi
-```
 
-```
-c. $ sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test 	libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3python-dev
-```
+	c. $ sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex 
+	python-pyside.qtopengl idle-7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script 
+	libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3python-dev
 
-```
-d. $ sudo apt-get install libxml2-dev libxslt1-dev python-dev lib32z1-de
-```
+	d. $ sudo apt-get install libxml2-dev libxslt1-dev python-dev lib32z1-de
 
-4. Create and sync the sqllite DB:
 
-  ```
+4. Create and sync the sqllite DB::
+
   $ python manage.py syncdb
-  ```
+  
 
-5. Run the django development server:
+5. Run the django development server::
 
-  ```
   $ python manage.py runserver
-  ```
