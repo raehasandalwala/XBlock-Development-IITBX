@@ -3,22 +3,22 @@ Installing XBlock SDK
 
 XBlock SDK runs on Python 2.7.
 
-1. Grab the source code for XBlock SDK at https://github.com/edx/xblock-sdk::
+1. **Grab the source code for XBlock SDK at https://github.com/edx/xblock-sdk**::
 
 	a. $ git clone https://github.com/edx/xblock-sdk.git
 	b. $ cd xblock-sdk
 
   Note : Remove proxy from browser. Set proxy in terminal.
   
-2. Optional) Create and activate a virtualenv to work in::
+2. **Optional) Create and activate a virtualenv to work in:**:
 
 	$ mkvirtualenv xblock-sdk
  
-3. Install the requirements and register the XBlock (you may need to sudo this if you don’t use virtualenv)::
+3. **Install the requirements and register the XBlock (you may need to sudo this if you don’t use virtualenv)**::
 	
 	$ make install
 	
-  **Possible error(s)**:: 
+  *Possible error(s)*:: 
 	
 		a. error: could not create '/usr/local/lib/python2.7/dist-packages/cookiecutter': Permission denied
       		Command /usr/bin/python -c "import setuptools;__file__='/home/raeha/xblock- sdk/build/cookiecutter/setup.py';
@@ -55,10 +55,10 @@ XBlock SDK runs on Python 2.7.
 
 		d. $ sudo apt-get install libxml2-dev libxslt1-dev python-dev lib32z1-de
 
-4. Create and sync the sqllite DB::
+4. **Create and sync the sqllite DB**::
 	
 	$ python manage.py syncdb
 
-5. Run the django development server::
+5. **Run the django development server**::
 	
 	$ python manage.py runserver
