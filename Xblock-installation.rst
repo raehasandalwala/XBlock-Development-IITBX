@@ -39,7 +39,7 @@ XBlock SDK runs on Python 2.7.
       		   Storing complete log in /home/raeha/.pip/pip.log
       		   make: *** [pip] Error 1
 
-  **Possible solutions**::
+  *Possible solutions*::
 
 		a. $ pip install -r requirements.txt
 	
