@@ -18,7 +18,7 @@ XBlock SDK runs on Python 2.7.
 	
 	$ make install
 	
-    **Possible error(s)**:: 
+  **Possible error(s)**:: 
 	
 		a. error: could not create '/usr/local/lib/python2.7/dist-packages/cookiecutter': Permission denied
       		Command /usr/bin/python -c "import setuptools;__file__='/home/raeha/xblock- sdk/build/cookiecutter/setup.py';
@@ -39,7 +39,7 @@ XBlock SDK runs on Python 2.7.
       		Storing complete log in /home/raeha/.pip/pip.log
       		make: *** [pip] Error 1
 
-    **Possible solutions**::
+  **Possible solutions**::
 
 		a. $ pip install -r requirements.txt
 	
