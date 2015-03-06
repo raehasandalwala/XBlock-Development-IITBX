@@ -41,9 +41,9 @@ XBlock SDK runs on Python 2.7.
       make: *** [pip] Error 1
 
 
-  **Possible solutions** :
+  **Possible solutions**::
 
-	a. $ pip install -r requirements.txt::
+	a. $ pip install -r requirements.txt
 	
 	b. $ sudo apt-get install gcc
    	$ sudo apt-get install python-dateutil python-docutils python-feedparser python-gdata python-jinja2 
@@ -60,10 +60,9 @@ XBlock SDK runs on Python 2.7.
 
 
 4. Create and sync the sqllite DB::
-
-  $ python manage.py syncdb
-  
+	
+	$ python manage.py syncdb
 
 5. Run the django development server::
-
-  $ python manage.py runserver
+	
+	$ python manage.py runserver
