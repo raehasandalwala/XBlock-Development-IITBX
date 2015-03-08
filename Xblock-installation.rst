@@ -8,7 +8,7 @@ XBlock SDK runs on Python 2.7.
 	a. $ git clone https://github.com/edx/xblock-sdk.git
 	b. $ cd xblock-sdk
 
-  Note : Remove proxy from browser. Set proxy in terminal.
+  .. note:: Remove proxy from browser. Set proxy in terminal.
   
 2. **Optional) Create and activate a virtualenv to work in**::
 
@@ -18,7 +18,7 @@ XBlock SDK runs on Python 2.7.
 	
 	$ make install
 	
-  *Possible error(s)*:: 
+   Possible error(s):: 
 	
 		a. error: could not create '/usr/local/lib/python2.7/dist-packages/cookiecutter': Permission denied
       		   Command /usr/bin/python -c "import setuptools;__file__='/home/raeha/xblock- sdk/build/cookiecutter/setup.py';
