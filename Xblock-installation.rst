@@ -8,7 +8,7 @@ XBlock SDK runs on Python 2.7.
 	a. $ git clone https://github.com/edx/xblock-sdk.git
 	b. $ cd xblock-sdk
 
-  .. note:: Remove proxy from browser. Set proxy in terminal.
+   Note : Remove proxy from browser. Set proxy in terminal.
   
 2. **Optional) Create and activate a virtualenv to work in**::
 
@@ -39,7 +39,7 @@ XBlock SDK runs on Python 2.7.
       		   Storing complete log in /home/raeha/.pip/pip.log
       		   make: *** [pip] Error 1
 
-  *Possible solution(s)*::
+  Possible solution(s)::
 
 		a. $ pip install -r requirements.txt
 	
