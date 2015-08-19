@@ -10,7 +10,7 @@ XBlock SDK runs on Python 2.7.
 
    Note : Remove proxy from browser. Set proxy in terminal.
   
-2. **Optional) Create and activate a virtualenv to work in**::
+2. **(Optional) Create and activate a virtualenv to work in**::
 
 	$ mkvirtualenv xblock-sdk
  
